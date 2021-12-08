@@ -1,0 +1,33 @@
+{
+  "name": "@hidetoxic/hide-event-bus",
+  "version": "0.0.1",
+  "description": "A event bus for Hidetoxic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hidetoxic/hide-event-bus.git"
+  },
+  "keywords": [
+    "hidetoxic",
+    "event-bus"
+  ],
+  "author": "hidetodong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hidetoxic/hide-event-bus/issues"
+  },
+  "files": ["lib/**/*"],
+  "homepage": "https://github.com/hidetoxic/hide-event-bus#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.2"
+  }
+}
